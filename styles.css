@@ -1,12 +1,39 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-}
-nav {
-    margin-bottom: 20px;
-}
-button {
-    padding: 10px 20px;
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
