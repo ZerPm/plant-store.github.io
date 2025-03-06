@@ -9,11 +9,4 @@ button {
     padding: 10px 20px;
     font-size: 16px;
 }
-```
 
-scripts.js:
-```js
-let cartCount = 0;
-function updateCart() {
-    document.getElementById('cart-count').textContent = cartCount;
-}
