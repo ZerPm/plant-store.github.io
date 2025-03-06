@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenido a Plant Store</h1>
-    <p>Tu aplicación aún no está configurada correctamente.</p>
+    <header>
+        <h1>Plant Store</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="cart.html">Carrito (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a Plant Store</h2>
+        <p>Tu tienda de plantas de interior.</p>
+        <button onclick="window.location.href='products.html'">Empezar</button>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
